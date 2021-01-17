@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": ["DOM", "ESNext"],
+        "strict": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "resolveJsonModule": true,
+        "typeRoots": ["./src/types/glsl.d.ts"]
+    },
+    "include": ["src"]
+}
